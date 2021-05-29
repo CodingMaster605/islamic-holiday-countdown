@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 22.5px;
+    background-image: url("https://miro.medium.com/max/8284/1*S8UogculWFLr3lVdLn05MA.jpeg");
+    background-repeat: no-repeat;
+    background-size: 211vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 100vh;
+}
+div {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2.5% 0; */
+    width: 50%;
+    /* width: 800px;
+    height: 400px; */
+}
+
+.countdown-details h2, .countdown-details h3{
+    margin: 0;
+}
